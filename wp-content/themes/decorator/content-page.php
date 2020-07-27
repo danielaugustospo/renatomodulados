@@ -8,12 +8,22 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<h1 class="entry-title"><?php the_title(); ?></h1>
-	</header><!-- .entry-header -->
+	<!--	<h1 class="entry-title">
+    <?php // the_title(); 
+    ?>
+    </h1>
+    -->
+	</header>
+  
+  <!-- .entry-header -->
 
 	<div class="entry-content">
-		<?php the_content(); ?>
-      </div><!-- .entry-content --><div class="clear"></div>
+		<?php  the_content(); ?>
+  </div>
+  
+  <!-- .entry-content -->
+  
+  <div class="clear"></div>
 		<?php
 			wp_link_pages( array(
 				'before' => '<div class="page-links">' . __( 'Pages:', 'decorator' ),

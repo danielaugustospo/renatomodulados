@@ -6,15 +6,28 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class('single-post'); ?>>
 
     <header class="entry-header">
-        <h1 class="entry-title"><?php the_title(); ?></h1>
+      <!--  <h1 class="entry-title">
+        <?php // the_title(); 
+        ?>
+        </h1>
+        -->
     </header><!-- .entry-header -->
 
-    <div class="entry-content">
-        <div class="postmeta">
-            <div class="post-date"><?php echo esc_attr(get_the_date()); ?></div><!-- post-date -->
-            <div class="post-comment"> | <a href="<?php comments_link(); ?>"><?php comments_number(); ?></a></div>
-            <div class="clear"></div>
-        </div><!-- postmeta -->
+       
+        <div class="entry-content">
+         <!-- 
+          <div class="postmeta">
+            <div class="post-date">
+             <?php // echo esc_attr(get_the_date()); ?>
+            </div>
+            <div class="post-comment"> | <a href="<?php comments_link(); ?>">
+             <?php // comments_number(); ?></a>
+            </div>
+            <div class="clear">
+            </div>
+          </div>
+        -->
+        <!-- postmeta -->
 		<?php 
         if (has_post_thumbnail() ){
 			echo '<div class="post-thumb">';
@@ -30,11 +43,16 @@
             'after'  => '</div>',
         ) );
         ?>
+        <!--
         <div class="postmeta">
-            <div class="post-categories"><?php the_category( __( ', ', 'decorator' ));?></div>
-            <div class="post-tags"><?php the_tags(__(' | Tags: ','decorator'), ', ', '<br />'); ?> </div>
+            <div class="post-categories"><?php // the_category( __( ', ', 'decorator' ));?>
+            </div>
+            <div class="post-tags"><?php // the_tags(__(' | Tags: ','decorator'), ', ', '<br />'); ?> 
+            </div>
             <div class="clear"></div>
-        </div><!-- postmeta -->
+        </div>
+        -->
+        <!-- postmeta -->
     
    
     <footer class="entry-meta">

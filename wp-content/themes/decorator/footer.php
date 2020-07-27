@@ -12,7 +12,8 @@
 <div class="copyright-wrapper">
         	<div class="container">
                 <div class="copyright">
-                    	<p><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php esc_attr(bloginfo( 'name' )); ?>  <?php echo esc_attr(date_i18n( __( 'Y', 'decorator' ) )); ?> <?php esc_html_e('. Powered by WordPress','decorator'); ?></p>               
+                    	<p><?php esc_attr(bloginfo( 'name' )); ?>  
+                      <a href="http://danieltecnologia.com" target="_blank"><p>Desenvolvido por DanielTECH</p></a>
                 </div><!-- copyright --><div class="clear"></div>           
             </div><!-- container -->
         </div>

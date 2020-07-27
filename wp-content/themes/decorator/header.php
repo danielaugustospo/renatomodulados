@@ -24,7 +24,7 @@
     	<div class="top-left">
         	<ul>
             	<?php if(get_theme_mod('email-txt') != '') { ?>
-                	<li><i class="fa fa-phone"></i><?php echo esc_html(get_theme_mod('phone-txt')); ?></li>
+                	<li><i class="fa fa-phone"></i><a href="https://api.whatsapp.com/send?phone=5521987352080&text=ola%20equipe%20Renato%20Modulados,%20encontrei%20o%20contato%20de%20voc%C3%AAs%20no%20site%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20a%20respeito%20de..." target="_blank"><?php echo esc_html(get_theme_mod('phone-txt')); ?></a></li>
 				<?php }?>                            
             </ul>
         </div><!-- top left -->

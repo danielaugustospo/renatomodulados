@@ -26,7 +26,7 @@ define( 'DB_NAME', 'renatomodulados' );
 define( 'DB_USER', 'root' );
 
 /** Senha do banco de dados MySQL */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', '8523654*dA' );
 
 /** Nome do host do MySQL */
 define( 'DB_HOST', 'localhost' );
@@ -82,7 +82,7 @@ $table_prefix = 'wp_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', false );
+define( 'WP_DEBUG', true );
 
 /* Isto é tudo, pode parar de editar! :) */
 

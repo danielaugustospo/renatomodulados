@@ -2776,12 +2776,23 @@ function _navigation_markup( $links, $class = 'posts-navigation', $screen_reader
 		$aria_label = $screen_reader_text;
 	}
 
+$template = '
+
+	<nav style="display: none;" class="navigation %1$s" role="navigation" aria-label="%4$s">
+		<h2  style="display: none;" class="screen-reader-text">%2$s</h2>
+		<div  style="display: none;" class="nav-links">%3$s</div>
+	</nav>
+
+';
+
+/*
 	$template = '
 	<nav class="navigation %1$s" role="navigation" aria-label="%4$s">
 		<h2 class="screen-reader-text">%2$s</h2>
 		<div class="nav-links">%3$s</div>
-	</nav>';
-
+	</nav>
+  ';
+*/
 	/**
 	 * Filters the navigation markup template.
 	 *
