@@ -26,7 +26,7 @@ define( 'DB_NAME', 'renatomodulados' );
 define( 'DB_USER', 'root' );
 
 /** Senha do banco de dados MySQL */
-define( 'DB_PASSWORD', '8523654*dA' );
+define( 'DB_PASSWORD', 'sua_senha_aqui' );
 
 /** Nome do host do MySQL */
 define( 'DB_HOST', 'localhost' );
